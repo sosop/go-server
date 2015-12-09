@@ -1,12 +1,3 @@
----                                                                                                                                                     layout: post
-layout: post
-title: "go Web Server分析"
-description: "web server"
-category: "go"
-tags: []
----
-{% include JB/setup %}
-
 # Go搭建web服务器
 
 ```
