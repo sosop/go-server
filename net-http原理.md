@@ -36,7 +36,7 @@ func handler(response http.ResponseWriter, request *http.Request) {
 ## http包的运行机制
 服务器监听端口，接收客户端请求后创建一个conn对象，然后创建一个协程，把参数交给conn去处理，实现了高并发。  
 详细流程：
-![http请求流程](../assets/pic/go-http.png)
+![http请求流程](go-http.png)
 
 ## http源码分析
 go的http包的2个核心：Conn和ServeMux
